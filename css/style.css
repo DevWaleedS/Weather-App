@@ -140,6 +140,14 @@ body {
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 }
+@media(max-width:765px){
+  .wrapper{
+    width: 85%;
+    margin: auto;
+  }
+
+
+}
 .wrapper header {
 	font-size: 22px;
 	font-weight: 500;
