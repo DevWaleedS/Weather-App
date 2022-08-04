@@ -140,14 +140,31 @@ body {
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 }
+
 @media(max-width:765px){
   .wrapper{
     width: 400px;
     margin: auto;
     max-width: 100%;
-  }
+    }
+}
 
 
+@media(max-width:400px){
+  .wrapper{
+    width: 350px;
+    }
+}
+
+@media(max-width:350px){
+  .wrapper{
+    width: 300px;
+    }
+}
+@media(max-width:250px){
+  .wrapper{
+    width: 200px;
+    }
 }
 .wrapper header {
 	font-size: 22px;
